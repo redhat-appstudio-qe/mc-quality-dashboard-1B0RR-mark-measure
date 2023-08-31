@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: backend-quality-dashboard-vudl
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-ibuy-tenant/mc-quality-dashboard/backend-quality-dashboard-vudl@sha256:c53f4bf1f5d96e663c39348ac7baefefca928e515a3616f25542a3667b238936
         imagePullPolicy: Always
         name: container-image
         ports:
