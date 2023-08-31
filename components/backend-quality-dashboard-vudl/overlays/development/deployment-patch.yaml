@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: backend-quality-dashboard-vudl
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-ibuy-tenant/mc-quality-dashboard/backend-quality-dashboard-vudl@sha256:c53f4bf1f5d96e663c39348ac7baefefca928e515a3616f25542a3667b238936
+        name: container-image
+        resources: {}
+status: {}
